@@ -90,7 +90,7 @@ public class UpdateData {
             float fCameraTopZ = 0;
 
 
-            Vec3D lookDirection = game.thePlayer.getLookVec();
+            Vec3 lookDirection = game.thePlayer.getLookVec();
 
             /*
              * TODO: calculate real camera vector from pitch and yaw // camera

@@ -50,6 +50,6 @@ public class ChatNotifier implements UserNotifier {
     }
 
     protected void send(String message) {
-        game.ingameGUI.addChatMessage(message);
+        game.thePlayer.addChatMessage(message);
     }
 }
